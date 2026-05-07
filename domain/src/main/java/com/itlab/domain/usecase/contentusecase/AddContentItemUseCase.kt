@@ -2,7 +2,7 @@ package com.itlab.domain.usecase.contentusecase
 
 import com.itlab.domain.model.ContentItem
 import com.itlab.domain.repository.NotesRepository
-import kotlinx.datetime.Clock
+import kotlin.time.Clock
 
 class AddContentItemUseCase(
     private val notesRepository: NotesRepository,

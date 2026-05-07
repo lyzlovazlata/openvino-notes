@@ -1,7 +1,7 @@
 package com.itlab.domain.usecase.contentusecase
 
 import com.itlab.domain.repository.NotesRepository
-import kotlinx.datetime.Clock
+import kotlin.time.Clock
 
 class DeleteContentItemUseCase(
     private val notesRepository: NotesRepository,
